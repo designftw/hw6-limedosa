@@ -1,0 +1,149 @@
+ body {
+    line-height: 1.618;
+    max-width: 80em;
+    margin: auto;
+  
+    color: white;
+    background: linear-gradient(-90deg, #9fd3c7, #385170, #142d4c);
+    padding:30px;
+  }
+
+
+  .grid-container {
+    display:inline-grid;
+    gap: 3px;
+    grid-gap:min(10vw,6em)
+  }
+  /* @media (max-width: 684px) {
+    body {
+      font-size: 89rem;
+    }
+  } */
+
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1;
+    /* font-family: Georgia, 'Times New Roman', serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; */
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+  }
+  
+  h1 {
+    font-size: 2em;
+    /* text-indent: 0em;
+     */
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+  }
+  
+  h5 {
+    font-size: 1.25em;
+  }
+  
+  h6 {
+    font-size: 1em;
+  }
+  
+  p {
+    margin-top: 1px;
+    margin-bottom: 2.5rem;
+  }
+  
+  small,
+  sub,
+  sup {
+    font-size: 75%;
+  }
+  
+  hr {
+    border-color: #ff00d4;
+  }
+  
+  /* changes color of email */
+  a {
+    color: #e0e0e0;
+  }
+  
+  /* this changes color when a button's been clicked. */
+  a:visited {
+    color: #ececec;
+  }
+  
+  /* this changes color when a button's being hovered on. */
+  a:hover {
+    color: #9fd3c7;
+    border-bottom: 2px solid #4a4a4a;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 1.4em;
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.4em;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 0.8em;
+    border}
+
+block {
+    background-color: #f9f9f9;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    }

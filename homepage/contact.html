@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+	<style>
+		.navbar {
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar background">
+		<ul>
+			<li><a href="index.html">Home </a></li>
+			<li><a href="cv.html">CV </a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</nav>
+	<center>
+		<h1>To contact me, fill out the form below:</h1>
+
+		<form action="mailto:dlinda@mit.edu" method="post" enctype="text/plain">
+			<div>
+				<label for="name">
+					<p>Name: </p>
+				</label>
+				<input type="text" id="name" name="Name: " required>
+			</div>
+			<div>
+				<label for="subject">
+					<p>Subject: </p>
+				</label>
+				<input type="text" id="subject" name="Subject: " required>
+			</div>
+			<div>
+				<label for="email">
+					<p>Email: </p>
+				</label>
+				<input type="email" id="email" name="Contact Information: " required>
+			</div>
+			<div>
+				<label for="message">
+					<p>Message: </p>
+				</label>
+				<textarea id="message" name="Message: " required></textarea>
+			</div>
+
+			<div>
+				<input type="submit" value="Send">
+				<input type="reset" value="Clear">
+			</div>
+		</form>
+	</center>
+</body>
+</html>
