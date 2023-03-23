@@ -1,17 +1,23 @@
+/* add some css to make writeup prettier */
 /* based off the 6.s063 Website! */
 
 body {
 	display: flex;
 	flex-flow: column;
-    /* color:green !important; */
+    /* color:#62205f; */
 	background: linear-gradient(45deg, #92A8D1, #F7CAC9);
 	/* background-position-x: var(--rainbow-offset); */
 	font-size: 22px;
 }
 
+figure {
+    margin: 0;
+}
+
+
 /* on the side  */
 body::before {
-	content: "Homework 5";
+	content: "Homework 6";
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -309,9 +315,9 @@ table#schedule {
 	}
 
 @media (min-width: 950px) {
-	
 		/* 3 columns on larger screens */
 		table#schedule {
 			grid-template-columns: 1fr 1fr auto;
 		}
 	}
+

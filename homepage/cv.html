@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>CV</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -70,7 +70,23 @@
     <!-- <embed src="Resume.pdf" type="application/pdf" width="10%" height="10%" /> -->
 
     <center><a href="resume.pdf" download class="button">Download My Resume!</a></center>
+    <!-- this is for translations at the bottom of the page! -->
+    <script type="text/javascript">
+        var pageTranslation = document.createElement('div');
+        pageTranslation.id = 'google_translate_element';
 
+        document.body.appendChild(pageTranslation);
+
+        var googleTranslateScript = document.createElement('script');
+        googleTranslateScript.type = 'text/javascript';
+        googleTranslateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+
+        document.body.appendChild(googleTranslateScript);
+
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element');
+        }
+    </script>
 </body>
 
 </html>
